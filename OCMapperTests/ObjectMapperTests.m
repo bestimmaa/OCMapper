@@ -31,6 +31,7 @@
 #import "CDUser.h"
 #import "Comment.h"
 #import "SpecialUser.h"
+#import "NSObject+ObjectMapper.h"
 
 @implementation ObjectMapperTests
 @synthesize mapper;
@@ -552,6 +553,17 @@
 {
 	ObjectInstanceProvider *instanceProvider = [[ObjectInstanceProvider alloc] init];
 	XCTAssertFalse([instanceProvider canHandleClass:CDUser.class]);
+}
+
+-(void)testObjectToDict{
+    User *user = [User new];
+    user.firstName = @"first";
+    user.lastName = @"last";
+    XCTAssert([user.dictionary isKindOfClass:[NSDictionary class]]);
+}
+
+-(void)testMappedObjectToDict{
+    
 }
 
 @end

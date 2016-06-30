@@ -136,7 +136,7 @@
 - (id)processDictionaryFromObject:(NSObject *)object
 {
 	// For example when we are mapping an array of string, we shouldn't try to map the string objects inside the array
-	if ([NSBundle mainBundle] != [NSBundle bundleForClass:object.class] && [object class] != [NSArray class])
+	if ([NSBundle bundleForClass:self.class] != [NSBundle bundleForClass:object.class] && [object class] != [NSArray class])
 	{
 		return object;
 	}

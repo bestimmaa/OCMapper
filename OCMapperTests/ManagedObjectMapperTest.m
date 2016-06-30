@@ -31,6 +31,7 @@
 #import "CDAddress.h"
 #import "CDPost.h"
 #import "CDSpecialUser.h"
+#import "NSObject+ObjectMapper.h"
 
 @implementation ManagedObjectMapperTest
 

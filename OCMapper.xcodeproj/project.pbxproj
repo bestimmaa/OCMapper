@@ -516,9 +516,15 @@
 		15B554A2171B7B3B0058E159 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastTestingUpgradeCheck = 0610;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Aryan Ghassemi";
+				TargetAttributes = {
+					15B554AA171B7B3B0058E159 = {
+						DevelopmentTeam = 94MSG646AN;
+					};
+				};
 			};
 			buildConfigurationList = 15B554A5171B7B3B0058E159 /* Build configuration list for PBXProject "OCMapper" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -728,12 +734,15 @@
 		15B554DF171B7B3C0058E159 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCMapper/OCMapper-Prefix.pch";
 				INFOPLIST_FILE = "OCMapper/OCMapper-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klickrent.fun;
 				PRODUCT_NAME = OCMapper;
+				PROVISIONING_PROFILE = "497e043b-f31d-400d-8fb4-4a1d0bebb16b";
 				SWIFT_OBJC_BRIDGING_HEADER = "OCMapper/OCMapper-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
@@ -742,12 +751,15 @@
 		15B554E0171B7B3C0058E159 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCMapper/OCMapper-Prefix.pch";
 				INFOPLIST_FILE = "OCMapper/OCMapper-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.klickrent.fun;
 				PRODUCT_NAME = OCMapper;
+				PROVISIONING_PROFILE = "497e043b-f31d-400d-8fb4-4a1d0bebb16b";
 				SWIFT_OBJC_BRIDGING_HEADER = "OCMapper/OCMapper-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
